@@ -1,0 +1,37 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+}
+html{
+	font-size: 62.5%;
+}
+body{
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+a{
+	text-decoration: none;
+}
+
+.monster{
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  max-width: 33%;
+  margin: 10vh auto;
+  padding: 2%;
+}
+.monster h3 {
+  text-transform: capitalize;
+}
+.monster p {
+  margin: 5%;
+}
+
+.monster button {
+  padding: 2%;
+}
